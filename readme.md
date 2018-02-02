@@ -1,8 +1,8 @@
 # isLambdaWarm 
 
-A simple module that'll tell you if your lambda is warm, by checking for the existence of `/tmp/isLambdaWarm', which is the most reliable way to check (as the /tmp/ folder is shared across invocations). 
+A simple module that'll tell you if your lambda is warm, by checking for the existence of `/tmp/isLambdaWarm`, which is the most reliable way to check this kind of thing (as the /tmp/ folder is shared across invocations). 
 
-If it's not, it writes Date.now() when this module was invoked to `/tmp/isLambdaWarm'). That should give you an approximate time when the Lambda container was first booted.
+If it's not, it writes the Date.now() when this module was invoked to `/tmp/isLambdaWarm`. That should give you an approximate time when the Lambda container was first booted.
 
 ## Usage 
 
