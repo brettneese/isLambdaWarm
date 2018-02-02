@@ -1,0 +1,22 @@
+{
+  "name": "islambdawarm",
+  "version": "1.0.0",
+  "description": "A simple module that tells you if your Lambda is warm",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettneese/isLambdaWarm.git"
+  },
+  "author": "Brett Neese, HBK Engineering <brett@neese.rocks>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brettneese/isLambdaWarm/issues"
+  },
+  "homepage": "https://github.com/brettneese/isLambdaWarm#readme"
+}
