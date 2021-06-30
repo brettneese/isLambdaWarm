@@ -1,6 +1,6 @@
 {
   "name": "islambdawarm",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A simple module that tells you if your Lambda is warm",
   "main": "index.js",
   "files": [
